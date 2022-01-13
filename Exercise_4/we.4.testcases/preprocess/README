@@ -1,0 +1,19 @@
+#--------------------------------------------
+#   Name: Fahrin Bushra
+#   ID: 1669159
+#   CCID: bushra1
+#   CMPUT 274, Fall 2021
+#
+#   Weekly Exercise #4: Text Preprocessor
+#-------------------------------------------- 
+
+# Program Usages:
+#     Takes in inputs from user
+#     Usage: python3 freq.py <mode>. mode = keep-symbols/keep-stops/keep-digits"
+
+# Program processes the user input in the following ways
+#       1. Converts to lowercase.
+#       2. Removes all punctuation and symbols.
+#       3. Removes all numbers UNLESS the token consists only of numbers.
+#       4. If the word is a stopword (see the list below), removes it.
+#       5. If the word has not been completely removed by steps 1-4, adds it to a list of processed words.

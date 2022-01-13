@@ -1,0 +1,18 @@
+unfairDice.py
+
+CCID: bushra1
+Student NUmber: 1669159
+Course Code: CMPUT 274
+Semester: Fall 2021
+
+Instructions:
+This file contains two functions: biasedrolls and draw_histogram
+
+biased_rolls(prob_list , s, n):
+- Takes in the as inputs, the number of sides on the dice (m), the probability list containing the probability of getting each output (prob_list), and the number of rolls (n).
+- m and n are intergers
+- As output, it returns the p]output of n rolls of a die by comparing a random probability with the probability list
+
+def draw_histogram(m, rolls, width):
+- Takes in as input, the number of sides on the dice (m), the output list of n rolls (rolls), and the max height of the histogram bar (width).
+- As output, it prints or a horizontal histogram showing the prbability distribution of the die's outputs
